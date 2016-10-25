@@ -1,0 +1,17 @@
+:local(.VacancyShare) .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.6;
+}
+:local(.VacancyShare) .popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    background: #c7c7c7;
+}

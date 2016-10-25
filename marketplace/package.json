@@ -1,0 +1,53 @@
+{
+  "name": "search-tile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "set MOCK=true && set NODE_ENV=development && webpack --colors --progress && static tiles/marketplace/public/",
+    "watch": "set MOCK=true && set NODE_ENV=development && webpack --colors --progress --watch",
+    "deploy": "set MOCK=false && set NODE_ENV=production && webpack --progress --colors && jive-sdk build add-on --apphosting=\"jive\" && anrom-sdk upload-extension https://example.com -u dbogomolov",
+    "deploy-prod": "set MOCK=false && set NODE_ENV=production && webpack --progress --colors && jive-sdk build add-on --apphosting=\"jive\" && anrom-sdk upload-extension https://community.nintex.com -u dbogomolov",
+    "build": "set MOCK=false && set NODE_ENV=production && webpack --progress --colors && jive-sdk build add-on --apphosting=\"jive\""
+  },
+  "dependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "consolidate": "0.9.0",
+    "css-loader": "^0.23.1",
+    "express": "3.1.0",
+    "fetch-ie8": "^1.4.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^1.7.0",
+    "jive-sdk": "*",
+    "multipart-parser": "0.0.2",
+    "mustache": "0.7.2",
+    "poplib": "0.1.5",
+    "q": "0.9.3",
+    "q-io": "1.6.x",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-hot-loader": "^1.3.0",
+    "request": "2.27.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11",
+    "xml2js": "0.2.8"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.5.0",
+    "base64-font-loader": "0.0.3",
+    "deepcopy": "^0.6.1",
+    "jqtree": "^1.3.0",
+    "moment": "^2.12.0",
+    "normalize.css": "^3.0.3",
+    "react-addons-update": "^0.14.7",
+    "react-retina-image": "^2.0.0",
+    "react-select": "^1.0.0-beta10",
+    "react-ui-tree": "^2.5.0",
+    "sweetalert": "^1.1.3"
+  }
+}

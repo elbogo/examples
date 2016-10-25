@@ -1,0 +1,43 @@
+
+.tags-section {
+    margin-top: 20px;
+}
+
+.tags-section .input-group{
+    width: 50%;
+}
+
+.tags-section .tags-list__wrapper {
+    border: 1px solid #000;
+    padding-top: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+    .tags-section .tags-list__wrapper .tags-list-title {
+        font-size: 18px;
+        position: absolute;
+        color: #000;
+        top: -13px;
+        left: 10px;
+        background: #fff;
+        padding: 0 5px;
+        margin: 0;
+
+    }
+    .tags-section .tags-list__wrapper ul {
+        display: table;
+        list-style-type: none;
+        padding-left: 20px;
+    }
+        .tags-section li.tag-item {
+            float: left;
+            margin-right: 5px;
+        }
+        .tags-section li.tag-item:hover{
+            color: red;
+            cursor: pointer;
+        }
+
+.tags-section .tags-list__wrapper .helper-delete {
+    color: orange;
+}

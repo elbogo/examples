@@ -1,0 +1,61 @@
+:local(.main) {
+
+}
+
+:local(.main) .column {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+:local(.main) .column.w50 {
+    width:50%
+}
+
+:local(.main) .column.w33 {
+    width:33.3%
+}
+
+:local(.main) .column.w66 {
+    width:66.6%
+}
+
+:local(.main) {
+    margin-bottom: 20px;
+}
+
+:local(.main) .header {
+    padding: 35px 50px;
+    background: #FAC033;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+:local(.main) .cv {
+    padding: 35px 50px;
+    background-color: #ECF0F2;
+}
+
+:local(.main) .cv h2{
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+
+:local(.main) .cv .label {
+    text-align: center;
+    margin-top:10px;
+}
+
+:local(.main) .center {
+    text-align: center;
+}
+
+:local(.main) .comment {
+    padding: 10px 50px;
+}
+
+:local(.main) .actions {
+    padding: 10px 50px;
+}

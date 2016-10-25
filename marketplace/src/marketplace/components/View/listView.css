@@ -1,0 +1,93 @@
+/*LIST VIEW*/
+
+.sidebar-right .sidebar-right--content.list {}
+.sidebar-right .sidebar-right--content.list .thumbnail-item {
+  display: block;
+  width: 100%;
+}
+.sidebar-right .sidebar-right--content.list {}
+.sidebar-right .sidebar-right--content.list .thumbnail-image {
+  display: inline-block;
+  vertical-align: top;
+  width: 75px;
+}
+.sidebar-right .sidebar-right--content.list .thumbnail-meta {
+  display: inline-block;
+  vertical-align: top;
+}
+.sidebar-right .sidebar-right--content.list .thumbnail-item .thumbnail-item__image {
+  width: 60px;
+  height: 60px;
+  margin-top: -8px;
+}
+.thumbnail-list-likes {
+  display: inline-block;
+  float: right;
+  margin: 10px 20px 0 0;
+}
+.sidebar-right .sidebar-right--content.list .view-count {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/simple-microphone-icon/512/Search_Icon-16.png);
+    background-repeat: no-repeat;
+    background-position: right 2px;
+    background-size: 12px;
+}
+.sidebar-right .sidebar-right--content.list .count, .sidebar-right .sidebar-right--content.list .view-count {
+  display: inline-block;
+  min-width: 35px;
+  height: 35px;
+  padding: 10px;
+  vertical-align: top;
+  background-color: #EFEFEF;
+  text-align: center;
+}
+.sidebar-right .sidebar-right--content.list .like-it.liked:hover {
+  background-color: #CECECE;
+}
+.sidebar-right .sidebar-right--content.list .like-it:hover {
+  background-color: #FFB900;
+}
+.sidebar-right .sidebar-right--content.list .like-it.liked {
+  background-color: #FFB900;
+}
+.sidebar-right .sidebar-right--content.list .like-it {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background-color: #CECECE;
+  background-image: url(../../images/thumb_up_filled@1x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  cursor: pointer;
+}
+.certified-list-small {
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+  background: url(../../images/badge.png);
+}
+.partners-list-small {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin: 3px 10px;
+  vertical-align: top;
+  background-size: cover;
+  background: url(../../images/example-icon.png);
+}
+.byexample-list-small {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin: 3px 10px;
+  vertical-align: top;
+  background-size: cover;
+  background: url(../../images/example-icon.png);
+}
+.sidebar-right .sidebar-right--content.list .noButton .like-it:hover{
+    background-color: #CECECE;
+    cursor: no-drop;
+}
+/*LIST VIEW:END*/

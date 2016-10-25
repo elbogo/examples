@@ -1,0 +1,6 @@
+.color-theme__section .left_block, .color-theme__section .right_block {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding: 0 10px;
+}

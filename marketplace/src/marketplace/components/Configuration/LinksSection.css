@@ -1,0 +1,6 @@
+.links-section .left_block, .links-section .right_block {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+}

@@ -1,0 +1,35 @@
+:local(.main) {
+    display: inline-block;
+    background: #fff;
+}
+
+:local(.main) input[type="text"]{
+    border: none;
+    padding: 5px 10px;
+    width: 270px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+:local(.main) button {
+    border: none;
+    border-radius: 0;
+    background: #BCE4FA;
+    padding: 5px 25px;
+    display: inline-block;
+    margin: 0;
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+:local(.main) .material-icons {
+    font-size: 21px;
+}
+
+:local(.main) button:active {
+    background: #81bbdb;
+}

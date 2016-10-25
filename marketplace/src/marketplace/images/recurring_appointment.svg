@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>recurring_appointment</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Thumbnail-view" sketch:type="MSArtboardGroup" transform="translate(-702.000000, -1263.000000)" fill="#FFFFFF">
+            <g id="Group-3" sketch:type="MSLayerGroup" transform="translate(660.000000, 1249.000000)">
+                <g id="recurring_appointment" transform="translate(42.000000, 14.000000)" sketch:type="MSShapeGroup">
+                    <g id="Layer_1">
+                        <path d="M17.2727273,10.9090909 C17.2727273,14.9254545 14.0163636,18.1818182 10,18.1818182 C5.98363636,18.1818182 2.72727273,14.9254545 2.72727273,10.9090909 C2.72727273,6.89272727 5.98363636,3.63636364 10,3.63636364 C11.0127273,3.63636364 11.9718182,3.85181818 12.8472727,4.22636364 L10.5709091,6.65727273 L17.3827273,6.43 L16.8045455,0 L14.7954545,2.14636364 C13.3718182,1.36272727 11.7409091,0.909090909 10,0.909090909 C4.47727273,0.909090909 0,5.38636364 0,10.9090909 C0,16.4318182 4.47727273,20.9090909 10,20.9090909 C15.5227273,20.9090909 20,16.4318182 20,10.9090909 L17.2727273,10.9090909 L17.2727273,10.9090909 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

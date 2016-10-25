@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="List-View" sketch:type="MSArtboardGroup" transform="translate(-255.000000, -973.000000)" fill="#FFB900">
+            <g id="delete" sketch:type="MSLayerGroup" transform="translate(255.000000, 973.000000)">
+                <g id="Layer_1" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-path" x="-1.24981506" y="4.37500599" width="12.4998801" height="1.24998801"></rect>
+                    <rect id="Rectangle-path" x="-1.24994006" y="4.37513099" width="12.4998801" height="1.24998801"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

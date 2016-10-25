@@ -1,0 +1,46 @@
+.categories_wrapper .m-tree {
+    margin-top: 20px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.categories_wrapper .m-tree > .m-node > .inner {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.categories_wrapper .categories_wrapper {
+    padding: 0 10px;
+    clear: both;
+}
+
+.categories_wrapper .left_block {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.categories_wrapper .right_block {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 65px 10px 0 10px;
+}
+.categories_wrapper .right_block button {
+    margin-right: 15px;
+}
+
+.categories_wrapper .heading {
+    font-weight: bold;
+}
+.categories_wrapper .node.active {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.categories_wrapper .node.headline {
+    font-weight: bold;
+}
+
+.Select--multi .Select-value-label {
+    width: calc(100% - 18px);
+}

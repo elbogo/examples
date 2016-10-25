@@ -1,0 +1,73 @@
+:local(.main) {
+
+}
+
+:local(.main) .column {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+:local(.main) .column.w50 {
+    width:50%
+}
+
+:local(.main) .column.w33 {
+    width:33.3%
+}
+
+:local(.main) .column.w66 {
+    width:66.6%
+}
+
+
+:local(.main) .list-item .data {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+:local(.main) .list-item .title {
+    font-size: 140%;
+}
+
+:local(.main) .list-item .title a {
+    color:#333;
+    text-decoration: none;
+}
+
+:local(.main) .list-item .title a:hover {
+    text-decoration: underline;
+}
+
+:local(.main) .list-item .city {
+    font-size: 130%;
+    font-weight: 600;
+    color: #333;
+}
+
+:local(.main) .list-item .date{
+    font-size: 110%;
+}
+
+
+
+:local(.main) .list-item .actions {
+    width:15%;
+    border-bottom: 1px solid #aaa;
+}
+
+
+
+:local(.main) .list {
+    position: relative;
+    padding: 0 70px;
+}
+
+:local(.main) .list .curtain {
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    min-height: 50px;
+    height: 100%;
+    width: 100%;
+}

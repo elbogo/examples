@@ -1,0 +1,123 @@
+:local(.VacancyView) {
+    position: relative;
+    color: #222;
+}
+
+:local(.VacancyView) .curtain {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: #aaa;
+    z-index: -1;
+}
+
+:local(.VacancyView) .body {
+    min-width: 500px;
+    max-width: 80%;
+    margin: auto;
+}
+
+:local(.VacancyView) .header {
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+:local(.VacancyView) .properties {
+    background-color: #F2F2F2;
+}
+
+:local(.VacancyView) .property {
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+:local(.VacancyView) .property h4 {
+    color:#0C9DE2;
+    margin: 0;
+}
+
+:local(.VacancyView) .property p {
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+:local(.VacancyView) .line1 {
+    padding: 20px 70px 0;
+}
+
+:local(.VacancyView) .line1 .property {
+    border-bottom: 1px solid #ccc;
+}
+
+:local(.VacancyView) .line2 {
+    padding: 20px 70px 0;
+}
+
+:local(.VacancyView) .line3 {
+    background-color: #DDF1FC;
+    padding: 0 70px;
+}
+
+:local(.VacancyView) .line3 h3 {
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+:local(.VacancyView) .line3 h4 {
+    color:#838688;
+}
+
+:local(.VacancyView) .descriptions {
+    padding-top: 20px;
+}
+
+:local(.VacancyView) .descriptions h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+:local(.VacancyView) .descr {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+:local(.VacancyView) .descr p {
+    margin: 0;
+}
+
+:local(.VacancyView) .descr h4 {
+    color: #888;
+    margin: 5px 0;
+}
+
+:local(.VacancyView) .admin-actions {
+    position: absolute;
+    z-index: 100;
+    right:0;
+    padding: 10px;
+    color: #fff;
+}
+
+:local(.VacancyView) .admin-actions a {
+    color:#fff;
+    text-decoration: none;
+    margin: 0 10px;
+    cursor:pointer  ;
+}
+
+:local(.VacancyView) .admin-actions a i {
+    font-size: inherit;
+    vertical-align: top;
+}
+
+:local(.VacancyView) .admin-actions a:hover {
+    text-decoration: underline;
+}

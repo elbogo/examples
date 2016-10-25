@@ -1,0 +1,17 @@
+{
+  "name": "ArcuDanyka",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "assemble": "cd android && ./gradlew assembleRelease && cd ../",
+    "install": "cd android && ./gradlew installRelease && cd ../"
+  },
+  "dependencies": {
+    "moment": "^2.13.0",
+    "react": "^0.14.8",
+    "react-native": "^0.24.1",
+    "react-native-material-design": "^0.3.3",
+    "realm": "^0.11.1"
+  }
+}

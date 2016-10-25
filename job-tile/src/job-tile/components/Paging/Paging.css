@@ -1,0 +1,28 @@
+:local(.main){
+    padding-top: 15px;
+}
+
+:local(.main) button {
+    padding: 5px 10px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #333;
+}
+
+:local(.main) button i {
+    font-size: 30px;
+}
+
+:local(.main) button:hover {
+    background: #eee;
+}
+
+:local(.main) button[disabled] {
+    color: #999;
+    cursor: not-allowed;
+}
+
+:local(.main) button[disabled]:hover {
+    background: transparent;
+}
